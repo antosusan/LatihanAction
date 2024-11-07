@@ -27,7 +27,7 @@ jobs:
 
       - name: Set Enviroment
         env:
-          HELLO: ${{ secrets.Halo }}
+          HELLO: "ayammm"
         run: echo $HELLO
 
       # Runs a set of commands using the runners shell
